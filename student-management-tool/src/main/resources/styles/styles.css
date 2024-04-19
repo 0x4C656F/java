@@ -1,0 +1,43 @@
+.students-table-view .column-header-background .label {
+  -fx-background-color: #f1f1f1;
+  background-color: #f1f1f1;
+  font-weight: bold;
+  -fx-font-weight: bold;
+  -fx-text-fill: #333;
+}
+root {
+  -fx-font-size: 10px;
+  -fx-font-family: "Inter";
+  -fx-background-color: #ececec;
+}
+
+.students-table-view .table-row-cell:filled:selected,
+.students-table-view .table-row-cell:filled:focused:selected {
+  -fx-background-color: #000000;
+  background-color: #000000;
+}
+.button {
+  -fx-background-color: #000000;
+  -fx-text-fill: #ffffff;
+  -fx-font-weight: bold;
+  -fx-border-radius: 4px;
+  -fx-padding: 4px 10px;
+  -fx-font-size: 12px;
+  -fx-font-family: "Inter";
+}
+.text-field {
+  -fx-font-size: 10px;
+  -fx-font-family: "Inter";
+  -fx-border-radius: 4px;
+  -fx-padding: 4px 10px;
+  -fx-border-color: #000000;
+  -fx-border-width: 1px;
+  -fx-background-color: #f1f1f1;
+  -fx-shadow: 0 0 0 0;
+}
+.primary-label {
+  -fx-font-size: 16px;
+  -fx-font-family: "Inter";
+  -fx-text-fill: #333;
+  -fx-font-weight: bold;
+}
