@@ -15,7 +15,7 @@ public class ClickApp extends Application {
         VBox root = new VBox();
         infoLabel = new Label("No control selected");
 
-        ControlClickedHandler handler = controlNumber -> infoLabel.setText("Selected control: Control " + controlNumber);
+        ControlClickedHandler handler = (controlNumber) -> infoLabel.setText("Selected control: Control " + controlNumber);
 
         for (int i = 0; i < 7; i++) {
             CustomControl customControl = new CustomControl(i, handler);
