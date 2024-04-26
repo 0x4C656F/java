@@ -1,6 +1,7 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-public class Part1 {
+
+public class LinkedList<T> implements Iterable<T> {
     public static void main(String[] args) {
         LinkedList<Integer> linkedList = new LinkedList<>();
         linkedList.add(5);
@@ -22,8 +23,7 @@ public class Part1 {
         System.out.println("Size: " + size);
         System.out.println(linkedList);
     }
-}
- class LinkedList<T> implements Iterable<T> {
+    
     private Node<T> first;
     private Node<T> last;
     private int size;
